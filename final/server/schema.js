@@ -60,7 +60,7 @@ const typeDefs = gql`
     animal(slug: String!): Animal
     #doing sigle query
     category(slug: String!): Category
-    #doing sigle query
+    #doing single query
     review(id:String!):Reviews!
 
 

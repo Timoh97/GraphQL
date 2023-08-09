@@ -14,7 +14,7 @@ const Mutation = {
             onSale,
             category,
         }
-
+  console.log(newAnimal)
         animals.push(newAnimal)
         
         return newAnimal
