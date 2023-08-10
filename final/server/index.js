@@ -1,5 +1,5 @@
 const { ApolloServer } = require('apollo-server');
-// const { mainCards, animals, categories, products, reviews} = require('./db')
+// const { maincards, animals, categories, products, reviews} = require('./db')
 const { pool } = require('./db');
 const typeDefs = require('./schema')
 const Query = require("./resolvers/Query")
@@ -17,7 +17,9 @@ const Category = require("./resolvers/Category")
       Animal,
       Category
     },
-    context: () => ({ pool }),
+    context: () => ({ pool}),
+   
+    
   });
 
   // The `listen` method launches a web server.

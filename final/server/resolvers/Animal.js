@@ -1,9 +1,18 @@
 const Animal = {
-    category: (parent, args, { categories }) => {
-        return categories.find((category) => {
-          return category.id === parent.category
-        })
-      }  
-}
+  category: async (parent, args, { pool }) => {
+    try {
+      const client = await pool.connect();
+      const query = 'SELECT * FROM categories WHERE id = $1';
+      const result = await client.query(query, [parent.category]);
+      client.release();
 
-module.exports = Animal
+      // Assuming the query returns a single row
+      return result.rows[0];
+    } catch (error) {
+      console.error('Error fetching category:', error);
+      throw error;
+    }
+  }
+};
+
+module.exports = Animal;

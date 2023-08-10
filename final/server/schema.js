@@ -46,12 +46,12 @@ const typeDefs = gql`
     title: String!
     comment: String!
     rating: Int!
-    productId: String!
+    productid: String!
 
   }
 
   type Query {
-    mainCards: [MainCard]
+    maincards: [MainCard]
     animals: [Animal!]!
     products:[Product!]!
     reviews:[Reviews!]!
