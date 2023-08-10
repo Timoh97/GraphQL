@@ -46,7 +46,7 @@ module.exports = { pool };
 //         stock: 14,
 //         onSale: false,
 //         slug: "lion",
-//         category: "1"
+//         category_id: "1"
 //     },
 //     {
 //         id: "2",
@@ -62,7 +62,7 @@ module.exports = { pool };
 //         stock: 14,
 //         onSale: false,
 //         slug: "chameleons",
-//         category: "2"
+//         category_id: "2"
 //     },
 //     {
 //         id: "3",
@@ -78,7 +78,7 @@ module.exports = { pool };
 //         stock: 14,
 //         onSale: false,
 //         slug: "dolphin",
-//         category: "3"
+//         category_id: "3"
 //     },
 //     {
 //         id: "4",
@@ -94,7 +94,7 @@ module.exports = { pool };
 //         stock: 14,
 //         onSale: false,
 //         slug: "gorilla",
-//         category: "4"
+//         category_id: "4"
 //     },
 //     {
 //         id: "5",
@@ -110,7 +110,7 @@ module.exports = { pool };
 //         stock: 14,
 //         onSale: false,
 //         slug: "horse",
-//         category: "4"
+//         category_id: "4"
 //     },
 //     {
 //         id: "6",
@@ -126,7 +126,7 @@ module.exports = { pool };
 //         stock: 14,
 //         onSale: false,
 //         slug: "kangaroo",
-//         category: "4"
+//         category_id: "4"
 //     },
 //     {
 //         id: "7",
@@ -142,7 +142,7 @@ module.exports = { pool };
 //         stock: 14,
 //         onSale: false,
 //         slug: "elephant",
-//         category: "4"
+//         category_id: "4"
 //     },
 //     {
 //         id: "8",
@@ -158,7 +158,7 @@ module.exports = { pool };
 //         stock: 14,
 //         onSale: false,
 //         slug: "donkey",
-//         category: "4"
+//        category_id: "4"
 //     }
 //   ]
 
